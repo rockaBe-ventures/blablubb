@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "A github graphAPI stats builder",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest",
-    "build": "tsc -p tscpnfig.json",
+    "build": "tsc -p tsconfig.json",
     "start": "node dist/index.js"
   },
   "repository": {
@@ -19,9 +20,6 @@
   ],
   "author": "rockaBe (Bernd Naehler)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rockaBe-ventures/blablubb/issues"
-  },
   "homepage": "https://github.com/rockaBe-ventures/blablubb#readme",
   "devDependencies": {
     "@tsconfig/node12": "^12.1.3",
